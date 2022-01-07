@@ -46,28 +46,28 @@ export default function Header() {
             <div className="nav">
               <ul className="nav-list">
                 <li className="nav-link">
-                  <a href="#">Bisnis</a>
+                  <a href="/">Bisnis</a>
                 </li>
                 <li className="nav-link">
-                  <a href="#">Keuangan</a>
+                  <a href="/">Keuangan</a>
                 </li>
                 <li className="nav-link">
-                  <a href="#">Pengembangan Karir</a>
+                  <a href="/">Pengembangan Karir</a>
                 </li>
                 <li className="nav-link">
-                  <a href="#">Sertifikasi</a>
+                  <a href="/">Sertifikasi</a>
                 </li>
                 <li className="nav-link">
-                  <a href="#">Sertifikasi</a>
+                  <a href="/">Sertifikasi</a>
                 </li>
                 <li className="nav-link">
-                  <a href="#">Bahasa</a>
+                  <a href="/">Bahasa</a>
                 </li>
                 <li className="nav-link">
-                  <a href="#">Korporat</a>
+                  <a href="/">Korporat</a>
                 </li>
                 <li className="nav-link">
-                  <a href="#">Korporat</a>
+                  <a href="/">Korporat</a>
                 </li>
               </ul>
             </div>
