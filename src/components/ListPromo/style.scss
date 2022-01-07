@@ -1,0 +1,53 @@
+.promo-wrapper {
+  margin-top: 132px;
+  .container {
+    display: flex;
+    flex-direction: column;
+    .sub-heading {
+      position: relative;
+      font-weight: 800;
+      font-size: 20px;
+      line-height: 24px;
+      color: #1c1d20;
+      margin-bottom: 27px;
+      display: flex;
+      flex-direction: row;
+      .view-more {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: right;
+        color: #2ba0e7;
+        position: absolute;
+        right: 0;
+      }
+    }
+    .list-promo {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      gap: 26px;
+      overflow-x: scroll;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+      &::-webkit-scrollbar {
+        display: none;
+      }
+      .card-promo {
+        min-width: calc((100% - 52px) / 3);
+        height: 200px;
+        border-radius: 12px;
+      }
+      .one {
+        background-color: #0977be;
+      }
+      .two {
+        background-color: #2ba0e7;
+      }
+      .three {
+        background-color: #22bb3e;
+      }
+    }
+  }
+}

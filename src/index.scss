@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  box-sizing: border-box;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1220px;
+  height: 100%;
+  box-sizing: border-box;
+  transition: all 1s;
+  /* ============ Mobile Max 576 */
+  @media screen and (max-width: 576px) {
+    max-width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  /* ============ Mobile Min 576  */
+  // @media screen and (min-width: 576px) {
+  //   max-width: 540px;
+  // }
+  /* ============ Tablet Min 768 */
+  // @media screen and (min-width: 768px) {
+  //   max-width: 720px;
+  // }
+  /* ============ Laptop Min 992 */
+  // @media screen and (min-width: 992px) {
+  //   max-width: 960px;
+  // }
+  /* ============ Laptop Min 1200 */
+  // @media screen and (min-width: 1200px) {
+  //   max-width: 1140px;
+  // }
+  /* ============ Laptop Min 1440 */
+  @media screen and (min-width: 1440px) {
+    max-width: 1220px;
+  }
+}
+section {
+  margin: 2rem auto 2rem auto;
+  border-radius: 8px;
+  border-top: 10px solid green;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
