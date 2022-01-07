@@ -1,4 +1,4 @@
-import { IconTime, VTrending } from "assets";
+import { IconTime } from "assets";
 import CardItem from "components/CardItem";
 import { SampleNextArrow, SamplePrevArrow } from "components/ReactSlick";
 import React from "react";

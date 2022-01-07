@@ -1,4 +1,4 @@
-import { IconPetik, ImgAvatar1, ImgAvatar2, ImgAvatar3, VPetik } from "assets";
+import { IconPetik, ImgAvatar1, ImgAvatar2, ImgAvatar3 } from "assets";
 import React from "react";
 import "./style.scss";
 
