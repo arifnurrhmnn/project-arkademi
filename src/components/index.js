@@ -1,21 +1,27 @@
-import BoxList from "./BoxList";
-import CardList from "./CardList";
-import Footer from "./Footer";
 import Header from "./Header";
+import Footer from "./Footer";
 import Hero from "./Hero";
-import ListCategory from "./ListCategory";
-import ListPromo from "./ListPromo";
-import ListInstitution from "./ListInstitution";
-import ListTestimony from "./ListTestimony";
+import CourseItem from "./CourseItem";
+import CourseTrendingList from "./CourseTrendingList";
+import CourseFlashSaleList from "./CourseFlashSaleList";
+import CourseBusinessList from "./CourseBusinessList";
+import CourseCareerList from "./CourseCareerList";
+import CategoryList from "./CategoryList";
+import PromoList from "./PromoList";
+import InstitutionList from "./InstitutionList";
+import TestimonyList from "./TestimonyList";
 
 export {
-  BoxList,
-  CardList,
-  Footer,
   Header,
+  Footer,
   Hero,
-  ListCategory,
-  ListPromo,
-  ListInstitution,
-  ListTestimony,
+  CourseItem,
+  CourseTrendingList,
+  CourseFlashSaleList,
+  CourseBusinessList,
+  CourseCareerList,
+  CategoryList,
+  PromoList,
+  InstitutionList,
+  TestimonyList,
 };

@@ -1,27 +1,49 @@
+import { VDiscount, VTrending } from "assets";
 import {
-  CardList,
+  CategoryList,
+  CourseBusinessList,
+  CourseCareerList,
+  CourseFlashSaleList,
+  CourseTrendingList,
   Hero,
-  ListCategory,
-  ListInstitution,
-  ListPromo,
-  ListTestimony,
+  InstitutionList,
+  PromoList,
+  TestimonyList,
 } from "components";
 import React from "react";
-import { VDiscount, VTrending } from "assets";
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <Hero />
-      <CardList icon={VTrending} title="Trending" />
-      <CardList icon={VDiscount} title="Flash Sale" time="enable" />
-      <ListCategory />
-      <ListPromo />
-      <ListInstitution />
-      <CardList title="Terbaru" />
-      <CardList title="Bisnis" />
-      <CardList title="Pengembangan Karir" />
-      <ListTestimony />
+      <div className="container">
+        <CourseTrendingList
+          icon="show"
+          iconImg={VTrending}
+          title="Trending"
+          name="trending"
+        />
+        <CourseFlashSaleList
+          icon="show"
+          iconImg={VDiscount}
+          title="Flash Sale"
+          time="enable"
+          name="flashSale"
+        />
+        <CategoryList />
+        <PromoList />
+        <InstitutionList />
+        <CourseCareerList icon="hidden" title="Terbaru" name="trending" />
+        <CourseBusinessList icon="hidden" title="Bisnis" name="business" />
+        <CourseCareerList
+          icon="hidden"
+          title="Pengembangan Karir"
+          name="career"
+        />
+      </div>
+      <TestimonyList />
     </>
   );
-}
+};
+
+export default Home;

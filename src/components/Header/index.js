@@ -1,13 +1,11 @@
-import React from "react";
-// import { ImgLogoBrand } from "assets";
-import "./style.scss";
 import { IconArrowDown, IconCart, IconSearch, ImgLogoBrand } from "assets";
+import React from "react";
 
-export default function Header() {
+const Header = () => {
   return (
     <>
-      <div className="header-wrapper">
-        <div className="topbar-wrapper">
+      <header className="header-wrapper">
+        <div className="topbar-wrapper top">
           <div className="container">
             <div className="logo-brand">
               <img
@@ -73,7 +71,9 @@ export default function Header() {
             </div>
           </div>
         </div>
-      </div>
+      </header>
     </>
   );
-}
+};
+
+export default Header;

@@ -1,0 +1,85 @@
+.testimony-wrapper {
+  background: linear-gradient(180deg, #f3f5f7 0%, #ffffff 100%);
+  // background-color: brown;
+  padding-top: 65px;
+  padding-bottom: 122.5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .sub-headings {
+    font-weight: 800;
+    font-size: 41px;
+    line-height: 50px;
+    text-align: center;
+    color: #c0c2c6;
+    margin-bottom: 42.5px;
+  }
+  .widget-testimony {
+    position: relative;
+    .widget-list {
+      position: static;
+      .widget-item {
+        position: relative;
+        width: auto !important;
+        border-radius: 10px;
+        cursor: pointer;
+        .card-testimony {
+          width: 385px !important;
+          height: 292px !important;
+          background: #ffffff;
+          border-radius: 14px;
+          box-sizing: border-box;
+          padding: 36px 32px 36px 32px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          gap: 14px;
+          // box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+          @include media(mobile) {
+            width: 324px !important;
+            height: 246px !important;
+          }
+          .content {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            // .icon-petik {
+            // }
+            .description {
+              // font-family: SourceSansPro;
+              font-size: 14px;
+              line-height: 23px;
+              color: #333539;
+            }
+          }
+          .user {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 14px;
+            .user-data {
+              .avatar {
+                width: 42px;
+                height: 42px;
+                border-radius: 50%;
+              }
+              .title {
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 17px;
+                color: #333539;
+                margin-bottom: 5px;
+              }
+              .sub-title {
+                font-weight: 600;
+                font-size: 11.2px;
+                line-height: 14px;
+                color: #94969b;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
