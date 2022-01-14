@@ -37,7 +37,7 @@
           // box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
           @include media(mobile) {
             width: 324px !important;
-            height: 246px !important;
+            height: auto !important;
           }
           .content {
             display: flex;
